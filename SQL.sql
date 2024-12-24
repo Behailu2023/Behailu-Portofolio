@@ -62,7 +62,7 @@ SELECT
 COUNT (customer_id)
 FROM customer;
 
--- --9. Are our customers' first names all unique? [Got help from Stackoverflow]
+-- --9. Are our customers' first names all unique? 
 SELECT first_name, count(*)
 FROM customer
 group by first_name
